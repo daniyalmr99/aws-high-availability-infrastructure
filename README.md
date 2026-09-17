@@ -80,7 +80,7 @@ The two healthy targets are distributed across:
 - `us-east-1a`
 - `us-east-1b`
 
-![Target Group](screenshots/11-target-group.png)
+![Target Group](11-target-group.png)
 
 ## Auto Scaling
 
@@ -100,9 +100,9 @@ The Auto Scaling Group uses two Availability Zones:
 - `us-east-1a`
 - `us-east-1b`
 
-![Auto Scaling Group](screenshots/12-auto-scaling-group.png)
+![Auto Scaling Group](12-auto-scaling-group.png)
 
-![Auto Scaling Network](screenshots/13-auto-scaling-network.png)
+![Auto Scaling Network](13-auto-scaling-network.png)
 
 ## Security Groups
 
@@ -116,9 +116,9 @@ The ALB security group is used for HTTP traffic to the Application Load Balancer
 
 The EC2 security group is configured to allow web traffic from the load balancer rather than exposing the web servers directly to the public internet.
 
-![ALB Security Group](screenshots/08-alb-security-group.png)
+![ALB Security Group](08-alb-security-group.png)
 
-![EC2 Security Group](screenshots/07-ec2-security-group.png)
+![EC2 Security Group](07-ec2-security-group.png)
 
 ## Live Demo
 
@@ -128,8 +128,7 @@ The application is currently reachable through the Application Load Balancer:
 
 The page displays the hostname of the web server handling the request. This makes it possible to see that requests are being served by the backend instances behind the load balancer.
 
-![Live Application](screenshots/14-live-application.png)
-
+![Live Application](14-live-application.png)
 ## How the Request Flows
 
 1. A client sends an HTTP request to the public ALB DNS name.
