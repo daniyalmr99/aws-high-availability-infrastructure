@@ -14,7 +14,7 @@ The environment uses an Auto Scaling Group to maintain the web-server capacity a
 
 ## Architecture
 
-![AWS Architecture](architecture/architecture-diagram.png)
+![AWS Architecture](architecture-diagram.png)
 
 ### Main components
 
