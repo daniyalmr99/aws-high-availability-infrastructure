@@ -45,18 +45,12 @@ The environment also has:
 - An Internet Gateway attached to the production VPC
 - A public NAT Gateway
 - Separate private route tables for the private subnets
-
-![VPC](screenshots/01-vpc.png)
-
-![Subnets](screenshots/02-subnets.png)
-
-![Route Tables](screenshots/03-route-tables.png)
-
-![Private Route Table](screenshots/04-private-route-table.png)
-
-![Internet Gateway](screenshots/05-internet-gateway.png)
-
-![NAT Gateway](screenshots/06-nat-gateway.png)
+![VPC](01-vpc.png)
+![Subnets](02-subnets.png)
+![Route Tables](03-route-tables.png)
+![Private Route Table](04-private-route-table.png)
+![Internet Gateway](05-internet-gateway.png)
+![NAT Gateway](06-nat-gateway.png)
 
 ## Load Balancing
 
@@ -64,9 +58,9 @@ I created an internet-facing Application Load Balancer named `web-alb`.
 
 The load balancer listens on **HTTP port 80** and forwards requests to the `web-servers-tg` target group.
 
-![Load Balancer](screenshots/09-alb.png)
+![Load Balancer](09-alb.png)
 
-![Load Balancer Network Mapping](screenshots/10-alb-network-mapping.png)
+![Load Balancer Network Mapping](10-alb-network-mapping.png)
 
 ### Target Group
 
